@@ -25,7 +25,7 @@ const Todos = () => {
 
     return (
         <>
-            <div>Todos</div>
+            <div className='text-2xl font-bold m-2'>My Todos</div>
             <ul className="list-none">
                 {todos.map((todo) => (
                     <li
