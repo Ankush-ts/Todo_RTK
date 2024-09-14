@@ -1,8 +1,7 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple responsive Todo app, using Redux Toolkit, to manage your day to day tasks. You can also edit and delete your tasks. Since local storage is used for saving todos, todos persists even after page is refreshed.
 
-Currently, two official plugins are available:
+## Link for the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Deployment Link : https://todo-rtk-olive.vercel.app
