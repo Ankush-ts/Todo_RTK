@@ -33,6 +33,6 @@ export const { addTodo, removeTodo, updateTodo } = todoSlice.actions;
 export default todoSlice.reducer;
 
 
-//JSON.parse(localStorage.getItem('todos')) || [], 
+//JSON.parse(localStorage.getItem('todos')) || [],
 //which ensures that if there are no todos in localStorage, the initial state
 // will be an empty array instead of null.
