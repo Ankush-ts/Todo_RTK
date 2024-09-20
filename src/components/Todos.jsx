@@ -3,6 +3,8 @@ import { useSelector, useDispatch } from 'react-redux';
 import { removeTodo, updateTodo } from '../features/todo/todoSlice';
 
 const Todos = () => {
+    //basically parenthesis is used when there are two parameters.(state)=>
+    // const todos = useSelector((state) => state.todos); 
     const todos = useSelector(state => state.todos);
     const dispatch = useDispatch();
 
